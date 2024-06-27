@@ -1,0 +1,86 @@
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+ 
+}
+body {
+    background-color: #111;
+}
+.contenier {
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one {
+    width: 20vw;
+    height:70vh ;
+    background-color: #333;
+    border-radius: 1rem;
+    transition: 1s;
+}
+.one:hover {
+    transform: perspective(1000px) rotateY(15deg);
+    box-shadow:
+    2px 5px 5px rgb(225, 255, 0), /* Красный лепесток вверху слева */
+    5px 2px 5px rgb(55, 255, 0), /* Оранжевый лепесток вверху справа */
+    -2px -5px 5px rgb(238, 2, 255), /* Розовый лепесток внизу слева */
+    -5px -2px 5px rgb(247, 3, 27); /* Фиолетовый лепесток внизу справа */
+}
+.img {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.img2 {
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.img3 {
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.text {
+    position: relative;
+    top: 90%;
+  padding: 1rem;
+
+}
+.text h3 {
+    color: aliceblue;
+    position: relative;
+    bottom: 1rem;
+}
+.type {
+    color: red;
+    font-size: large;
+}
+.type2 {
+    color: beige;
+    font-size: large;
+    position: relative;
+    bottom: 1rem;
+    font-size: small;
+}
+.ba {
+    color: orange;
+}
+.la {
+    color: green;
+}
